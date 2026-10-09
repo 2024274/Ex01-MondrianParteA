@@ -1,10 +1,10 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255, 45, 200);
+  background(255, 45, 0);
 }
 
 function draw() {
-  circle(mouseX, mouseY, 60);
+  circle(mouseX, mouseY, 90);
 }
 
 function windowResized() {
